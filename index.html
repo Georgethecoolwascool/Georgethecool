@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>George Animation</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .george {
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+      border-radius: 50%;
+      animation: bounce 1s infinite alternate;
+      margin: auto;
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-50px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="george"></div>
+  <h2>Hello from George!</h2>
+</body>
+</html>
